@@ -64,7 +64,13 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
-        <Logo />
+        <div className="logo-container">
+          <img
+            className="solid-logo"
+            src={LogoTitle}
+            alt="JavaScript,  Developer"
+          />
+        </div>
       </div>
 
       <Loader type="pacman" />
