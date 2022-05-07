@@ -50,7 +50,7 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            href="https://www.youtube.com/channel/UCRRriynMSH0udjAepUhe8Wg"
+            href="https://www.youtube.com/channel/UCssdVMGVlIAHvQoY6BaMpXw"
             rel="noreferrer"
             target="_blank"
           >
@@ -58,7 +58,11 @@ const Sidebar = () => {
           </a>
         </li>
         <li>
-          <a href="https://medium.com/@monles" rel="noreferrer" target="_blank">
+          <a
+            href="https://medium.com/@MonlesYen"
+            rel="noreferrer"
+            target="_blank"
+          >
             <FontAwesomeIcon icon={faMedium} color="#4d4d4e" />
           </a>
         </li>
