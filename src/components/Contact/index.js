@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
@@ -43,9 +44,7 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in freelance opportunities - especially ambitious or
-            large projects. However, if you have other request or question,
-            don't hesitate to contact me using below form either.
+            我正在尋找自由接案、遠端工作的機會，尤其是充滿挑戰、最新科技的大型專案，如有任何問題，歡迎來信。
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
@@ -83,7 +82,26 @@ const Contact = () => {
             </form>
           </div>
         </div>
+        <div className="info-map">
+          Yen 🍋
+          <br />
+          布里斯托， 英國
+          <br />
+          漂亮的森林花園 <br />
+          要來一杯茶嗎? <br />
+          <br />
+          <span>freelancerslobodan@gmail.com</span>
+        </div>
+        <div className="map-wrap">
+          <MapContainer center={[51.45579, -2.5884]} zoom={13}>
+            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+            <Marker position={[51.45579, -2.5884]}>
+              <Popup>Yen住這裡，拜訪我並喝一杯茶吧🍋</Popup>
+            </Marker>
+          </MapContainer>
+        </div>
       </div>
+
       <Loader type="pacman" />
     </>
   )

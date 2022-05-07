@@ -33,18 +33,13 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a very ambitious front-end developer looking for a role in
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+            我對前端有著研究者般，專業且持續精進的熱情。目前正尋找機會，能在IT公司中參與最新、有挑戰性的專案。
           </p>
           <p align="LEFT">
-            I'm naturally curious, quietly confident, and perpetually working on
-            improving my chops one design problem at a time.
+            我天生就充滿好奇心、持續精進編碼技術、設計美感和解決問題的能力值。
           </p>
           <p>
-            If I need to define myself in one sentence that would be a
-            passionate creator, loves MMA & BJJ, photography enthusiast, and
-            tech-obsessed!!!
+            如果只能在一行中定義我自己的特質，我會說我是個細心但願意接受挑戰的創作者，熱愛BJJ、CG藝術家、且是個熱愛科技者🍋
           </p>
         </div>
 
