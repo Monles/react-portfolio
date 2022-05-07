@@ -44,7 +44,9 @@ const Contact = () => {
             />
           </h1>
           <p>
-            我正在尋找自由接案、遠端工作的機會，尤其是充滿挑戰、最新科技的大型專案，如有任何問題，歡迎來信。
+            I am interested in freelance opportunities - especially ambitious or
+            large projects. However, if you have other request or question,
+            don't hesitate to contact me using below form either.
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
@@ -83,20 +85,20 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Yen 🍋
+          Yen Lemons
           <br />
-          布里斯托， 英國
+          Bristol, UK
           <br />
-          漂亮的森林花園 <br />
-          要來一杯茶嗎? <br />
+          A beauitful forest graden <br />
+          and a cup of tea. <br />
           <br />
-          <span>freelancerslobodan@gmail.com</span>
+          <span>freelancersYen@gmail.com</span>
         </div>
         <div className="map-wrap">
           <MapContainer center={[51.45579, -2.5884]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             <Marker position={[51.45579, -2.5884]}>
-              <Popup>Yen住這裡，拜訪我並喝一杯茶吧🍋</Popup>
+              <Popup>Yen lives here, come over for a cup of tea 🍋</Popup>
             </Marker>
           </MapContainer>
         </div>
