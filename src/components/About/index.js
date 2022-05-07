@@ -33,13 +33,19 @@ const About = () => {
             />
           </h1>
           <p>
-            我對前端有著研究者般，專業且持續精進的熱情。目前正尋找機會，能在IT公司中參與最新、有挑戰性的專案。
+            I have been built many projects with React mostly, also some of
+            React-Native. I have passionate, creaful spirit for building and
+            learning new things. Now I'm looking for an opportunity to work with
+            great people and build something awesome.
           </p>
           <p align="LEFT">
-            我天生就充滿好奇心、持續精進編碼技術、設計美感和解決問題的能力值。
+            I'm curious about new technologies and I'm always looking for new
+            ideas to learn and grow. With my years exporience of graphic design,
+            I know how to design and comminicate with clients and users.
           </p>
           <p>
-            如果只能在一行中定義我自己的特質，我會說我是個細心但願意接受挑戰的創作者，熱愛BJJ、CG藝術家、且是個熱愛科技者🍋
+            If I can define myself as a good developer, I will be a great asset
+            to your team. Also an Technology, Art, Martial Art enthusiast💖
           </p>
         </div>
 
